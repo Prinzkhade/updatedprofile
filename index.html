@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomary Prince | Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header role="banner">
+    <div class="container">
+      <nav aria-label="Main navigation">
+        <div class="logo">Pomary <span>Prince</span></div>
+        <ul class="nav-links" id="primary-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="mobile-toggle" id="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content">
+            <div class="hero-text fade-in">
+              <h1>Hello, I'm <span class="highlight">Pomary Prince</span></h1>
+              <p>I’m an aspiring Computer Science engineer with a strong interest in web development and modern technology. I enjoy building real-world projects using HTML, CSS, JavaScript, and Python, and I’m constantly learning new tools to improve my skills and solve problems creatively.</p>
+              <div>
+                <a href="#project" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+              </div>
+            </div>
+            <aside class="hero-image" aria-labelledby="home">
+              <img src="IMG_5497.jpeg" alt="Portrait of Pomary Prince">
+              <div class="social-links" aria-hidden="false">
+                <a href="#" aria-label="GitHub" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content">
+          <div class="about-text fade-in">
+            <h3>More About Me</h3>
+            <p>I work with front-end technologies like HTML, CSS, JavaScript, and React to create sleek, interactive websites.</p>
+            <p>I love working on projects that challenge me, push creativity, and deliver seamless experiences for users across all devices.</p>
+            <div class="skill">
+              <div class="skill-name">HTML <span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS <span>85%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">JavaScript <span>75%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
+            </div>
+          </div>
+          <div class="fade-in">
+            <img src="IMG_4274.jpeg" alt="Working on code" style="border-radius: var(--border-radius); box-shadow: var(--shadow-md); width:100%; max-width:300px;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <h2 class="section-title fade-in">Projects</h2>
+        <div class="project-grid">
+          <article class="project-card fade-in">
+            <img src="chatApp.png" alt="Chat App Project">
+            <h3>Real-Time Chat App</h3>
+            <p>A browser-based chat application using HTML, CSS, JavaScript, and Node.js.</p>
+            <div class="project-links">
+              <a href="https://chatroom-7ktc.onrender.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <img src="portfolio.png" alt="Portfolio Website">
+            <h3>Portfolio Website</h3>
+            <p>A modern personal portfolio showcasing my skills and projects.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card fade-in">
+            <img src="bussiness landing page.png" alt="Landing Page">
+            <h3>Business Landing Page</h3>
+            <p>Responsive landing page built with modern UI principles.</p>
+            <div class="project-links">
+              <a href="#" class="btn btn-primary">Live Demo</a>
+              <a href="#" class="btn btn-outline">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title fade-in">Contact Me</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info fade-in">
+            <h3>Let's Work Together</h3>
+            <p>Feel free to reach out for collaborations, projects, or just to say hello.</p>
+            <p><i class="fas fa-envelope" aria-hidden="true"></i> pomaryprince1@email.com</p>
+            <p><i class="fas fa-phone" aria-hidden="true"></i> +233 537 925 056</p>
+            <p><i class="fas fa-location-dot" aria-hidden="true"></i> Ghana</p>
+            <div class="social-links-contact">
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form fade-in" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Pomary Prince — All Rights Reserved
+    <div style="margin-top:3px;">
+      <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    document.addEventListener('DOMContentLoaded', function(){
+      const toggle = document.getElementById('nav-toggle');
+      const nav = document.getElementById('primary-nav');
+      
+      if(toggle) {
+        toggle.addEventListener('click', function(){
+          const expanded = this.getAttribute('aria-expanded') === 'true';
+          this.setAttribute('aria-expanded', String(!expanded));
+          nav.classList.toggle('active');
+        });
+      }
+      
+      document.querySelectorAll('.nav-links a').forEach(a => {
+        a.addEventListener('click', ()=>{
+          nav.classList.remove('active');
+          toggle && toggle.setAttribute('aria-expanded','false');
+        });
+      });
+    });
+
+    // Dark mode toggle
+    document.addEventListener('DOMContentLoaded', function(){
+      const themeToggle = document.getElementById('theme-toggle');
+      const htmlElement = document.documentElement;
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
+
+      htmlElement.setAttribute('data-theme', savedTheme);
+      updateThemeIcon(savedTheme);
+
+      if(themeToggle) {
+        themeToggle.addEventListener('click', () => {
+          const currentTheme = htmlElement.getAttribute('data-theme') || 'light';
+          const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+          htmlElement.setAttribute('data-theme', newTheme);
+          localStorage.setItem('theme', newTheme);
+          updateThemeIcon(newTheme);
+        });
+      }
+
+      function updateThemeIcon(theme) {
+        if(themeToggle) {
+          const icon = themeToggle.querySelector('i');
+          icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+        }
+      }
+    });
+  </script>
